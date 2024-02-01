@@ -1,0 +1,153 @@
+.plans {
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    margin: 5rem 0;
+}
+.contain1 {
+    width: 30rem;
+    padding: 5rem;
+    background: #d4dac9;
+    text-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.contain1 .title {
+    font-size: 2rem;
+    color: #333;
+}
+
+.contain1 .price {
+    color: #FF6B6B;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin: 15px 0;
+}
+
+.contain1 span {
+    font-size: 1.2rem;
+}
+
+.contain1 .description {
+    color: #3b3b3b;
+    font-size: 1.1rem;
+    margin: 20px 0 20px;
+}
+
+.contain1 .offer {
+    display: block;
+    color: #555;
+    font-size: 1rem;
+    margin-top: 25px;
+}
+
+.subscribe-button {
+    display: inline-block;
+    padding: 15px 0;
+    background-color: #FF6B6B;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    width: 100%;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.subscribe-button:hover {
+    background: #ff4d4d;
+}
+
+.ribbon-wrap {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    pointer-events: none;
+}
+
+.ribbon {
+    width: 230px;
+    font-size: 0.918rem;
+    text-align: center;
+    padding: 8px 0;
+    background: #FF6B6B;
+    color: #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: -17px;
+    top: 29%;
+}
+
+@media screen and (max-width: 1080px) {
+        .contain1 {
+            width: 25rem;
+            padding: 3.5rem;
+            background: #d4dac9;
+            text-align: center;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+            position: relative;
+        } 
+}
+@media screen and (max-width: 920px) {
+    .contain1 {
+        width: 15rem;
+        padding: 3rem;
+    }
+    
+    .contain1 .title {
+        font-size: 1rem;
+    }
+    
+    .contain1 .price {
+        font-size: 1.1rem;
+        margin: 8px 0;
+    }
+    
+    .contain1 span {
+        font-size: 0.6rem;
+    }
+    
+    .contain1 .description {
+        font-size: 0.55rem;
+        margin: 10px 0 10px;
+    }
+    
+    .contain1 .offer {
+        font-size: 0.5rem;
+        margin-top: 15px;
+    }
+    
+    .subscribe-button {
+        padding: 10px 0;
+        font-size: 0.6rem;
+        margin-top: 20px;
+    }
+    .ribbon-wrap {
+        width: 150px;
+        height: 100px;
+        top: -5px;
+        left: -5px;
+    }
+    
+    .ribbon {
+        width: 230px;
+        font-size: 0.7rem;
+        text-align: center;
+        padding: 4px 0;
+    }
+    
+}
+@media screen and (max-width: 550px) {
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+}
