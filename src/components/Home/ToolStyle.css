@@ -1,4 +1,4 @@
-.destination {
+.hubtool {
     margin: 0 6rem;
 }
 .version {
@@ -16,10 +16,10 @@
     margin-top: 25rem;
     margin-bottom: -10rem;
 }
-.destination h1 {
+.hubtool h1 {
     font-size: 4rem;
 }
-.destination .general {
+.hubtool .general {
     margin-right: 50%;
     font-size: 1.2rem;
 }
@@ -65,7 +65,7 @@
 }
 
 @media screen and (max-width: 850px) {
-    .destination {
+    .hubtool {
         margin: 4rem 2rem;
     }
     .version {
@@ -75,10 +75,10 @@
     .version:after {
         width: 6rem; 
     }
-    .destination h1 {
+    .hubtool h1 {
         font-size: 2rem;
     }
-    .destination .general {
+    .hubtool .general {
         font-size: 0.7rem;
         margin-right: 10%;
     }

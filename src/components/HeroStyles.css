@@ -55,8 +55,12 @@
 }
 
 @media screen and (max-width: 555px) {
+    .hero {
+        height: 70vh;
+    }
     .hero-text h1 {
         padding: 10px 20px;
+        font-size: 35px;
     }
     .hero-text p {
         font-size: 1.1rem;

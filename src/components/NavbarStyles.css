@@ -117,10 +117,11 @@ button:hover {
         display: block;
         width: 100%;
         font-size: 1.2rem;
-        padding: 2rem 0;
+        padding: 1.5rem 0;
+        text-align: center;
     }
     .nav-links:hover {
-        background: #01959a;
+        background: darkgreen;
         transition: none;
     }
     .btn1, .btn2 {
@@ -133,9 +134,9 @@ button:hover {
         margin: auto;
         border-radius: 4px;
         width: 80%;
-        background: #01959a;
+        background: lightgreen;
         text-decoration: none;
-        color: #fff;
+        color: black;
         font-size: 1.2rem;
         font-weight: 700;
         letter-spacing: 2px;
@@ -147,5 +148,20 @@ button:hover {
     .menu-icons i {
         font-size: 1.2rem;
         color: #222;
+    }
+}
+
+@media screen and (max-width: 489px) {
+    .navbar-logo {
+        font-size: 1.5rem;
+    }
+    .NavbarItems{
+        padding: 0 15px;
+    }
+    .nav-links {
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+        padding: 1rem 0;
     }
 }

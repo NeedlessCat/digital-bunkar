@@ -16,7 +16,7 @@ import img3 from "./images/user3.jpg";
 const Comment = () => {
   return (
     <>
-      <div className="trip">
+      <div className="team">
         <h1>Feedbacks</h1>
         <p>
           You can discover togetherness, unity and belief with and within us.

@@ -1,10 +1,10 @@
 import Comment from "../components/Comment/Comment";
-import Destination from "../components/Destination";
+import Tools from "../components/Home/Tools";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import Trip from "../components/Trip";
-import Card from "./../components/Payment/card";
+import Team from "../components/Home/Team";
+import Card from "../components/Home/Payment/card";
 
 function Home() {
   return (
@@ -19,9 +19,9 @@ function Home() {
         url="/"
         btnClass="show"
       />
-      <Destination />
+      <Tools />
       <Comment />
-      <Trip />
+      <Team />
       <Card />
       <Footer />
     </>

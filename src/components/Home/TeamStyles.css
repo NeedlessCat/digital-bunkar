@@ -1,0 +1,28 @@
+.team {
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+    text-align: center;
+}
+.team h1 {
+    font-size: 3.5rem;
+}
+.team p {
+    font-size: 1.2rem;
+}
+.tripcard {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:850px) {
+    .team {
+        margin: 4rem 2rem;
+    }
+    .team h1 {
+        font-size: 2.5rem;
+    }
+    .team p {
+        font-size: 0.8rem;
+    }
+}
