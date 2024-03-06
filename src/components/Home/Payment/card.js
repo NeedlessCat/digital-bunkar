@@ -3,7 +3,7 @@ import "./style.css";
 const card = () => {
   return (
     <>
-      <div className="trip">
+      <div className="team">
         <h1>Subscriptions</h1>
         <p>
           You can discover togetherness, unity and belief with and within us.
